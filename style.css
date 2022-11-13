@@ -1,14 +1,21 @@
 body {
+    margin: 0 !important;
     background-color: #f9f9f9 !important;
     font-family: 'Montserrat', sans-serif !important ;
+    line-height: 1.5 !important;
 }
 
-nav {
-    position: sticky;
-    top : 0 ; 
-    width: 100%;
-    
+#navbar {
+    overflow: hidden; 
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 60px;
+}
+
 ul {
     list-style-type: none !important ;
     padding-left: 0 !important;
@@ -17,6 +24,7 @@ ul {
 }
 
 li {
+    line-height: 1.5 !important;
     margin-right: 26px;
     padding: 20px 11px ;
     display: inline;
@@ -34,3 +42,75 @@ li:hover {
     color: #f9f9f9;
 }
 
+header {
+    background-image: url(images/header_pic.svg);
+    height: 615px ;
+    position: relative;
+    
+}
+
+.header-section {
+    background: rgba(37, 37, 37, 0.65);;
+    color: #f9f9f9 !important;
+    width: 100%;
+    height : 100% ; 
+
+}
+
+.text-1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 62px;
+    padding-top: 70px ;
+}
+
+.text-2, .text-3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    padding-top: 30px;
+}
+
+.summary-line {
+    text-align: center;
+}
+
+.line {
+    border: 5px solid #1f4d1b;
+    display: block;
+    left: 38.59%;
+    right: 38.75%;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.title {
+    text-align: center !important;
+    margin-top: 60px;
+    color : #1f4d1b ; 
+    font-size: 40px;
+    font-weight: 700;
+    line-height : 49px ; 
+}
+
+.photo-section {
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.pic {
+    text-align: center;
+}
+
+.sum-photo {
+    margin-bottom: 50px;
+}
+
+.text-sum {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #1f4d1b;
+}
